@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualization</title>
+    <script src="sort.js"></script>
+    <!--<link rel="stylesheet" href="/styles/style.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <style type="text/css">
+        body { 
+            background: #424752;
+            color: white;
+            text-align: center;
+        } 
+        
+     </style>
+
+</head>
+<body>
+    <h1 class="display-2">Saumya's Sort<b>O</b>meter</h1>
+    <br>
+    <p class="lead">How many numbers do you want to sort?</p>
+
+    <div class="input-group" style="padding-left: 40%;padding-right: 40%;">
+        <input type="text" id="numberOfElements" class="form-control">
+        <button onclick="disp()" id="sortBtn" class="btn btn-secondary">SORT!</button>
+    </div>
+
+    
+    <p id="show"></p>
+    <div>
+        <p id="randNums"></p>
+    </div>
+    <canvas id="test"></canvas>
+    
+    <p id="sortedNums"></p>
+    <p id="mergeOutput"></p>
+    <div id="sortBtns" style="display: none;">
+        <p class="lead">Lets try something faster than Bubble Sort</p>
+        <div class="btn-toolbar d-flex justify-content-center" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group" role="group" aria-label="First group">
+            <button type="button" class="btn btn-secondary" onclick="MergeSort()">Merge Sort</button>
+            <button type="button" class="btn btn-secondary" onclick="heapSort()">Heap Sort</button>
+            <button type="button" class="btn btn-secondary" onclick="quickSort()">Quick Sort</button>
+            <button type="button" class="btn btn-secondary" onclick="selectionSort()">Selection Sort</button>
+        </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
