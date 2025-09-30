@@ -20,12 +20,8 @@ Quick Sort
 
 Selection Sort
 
-Simple, beginner-friendly design
+Simple, beginner-friendly design.
 
-# 🚀 Demo
-
-Click here
- to try it out!
 
 # 📂 Project Structure
 
@@ -36,17 +32,6 @@ sort.html → Main sorting app with algorithm visualizations
 sort.js → JavaScript logic for sorting algorithms and visualizations
 
 script.js → Logic for handling suggestions/inputs on homepage
-
-🛠️ How to Run Locally
-
-Clone the repo:
-
-git clone https://github.com/your-username/your-repo.git
-
-
-Open index.html in your browser.
-
-Navigate to Sort’O’Meter and start sorting!
 
 # 💡 Future Improvements
 
