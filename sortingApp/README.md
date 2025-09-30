@@ -1,8 +1,8 @@
-Sort’O’Meter
+# Sort’O’Meter
 
 An interactive sorting visualization app that allows users to input numbers and see how different sorting algorithms work step by step with graphical representation.
 
-✨ Features
+# ✨ Features
 
 Interactive UI for entering number of elements to sort
 
@@ -22,12 +22,12 @@ Selection Sort
 
 Simple, beginner-friendly design
 
-🚀 Demo
+# 🚀 Demo
 
 Click here
  to try it out!
 
-📂 Project Structure
+# 📂 Project Structure
 
 index.html → Landing page with project intro and navigation
 
@@ -48,7 +48,7 @@ Open index.html in your browser.
 
 Navigate to Sort’O’Meter and start sorting!
 
-💡 Future Improvements
+# 💡 Future Improvements
 
 Add more sorting algorithms (e.g., Insertion Sort, Radix Sort)
 
